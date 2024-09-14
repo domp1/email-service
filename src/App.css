@@ -1,6 +1,55 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container form {
+  padding: 32px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: var(--border-radius-default);
+  height: 320px;
+}
+
+.container form .name-form-container{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.container .product-details {
+  padding: 24px;
+  background: linear-gradient(90deg, rgba(255,245,245,1) 0%, rgba(232,255,254,1) 100%);
+  border-radius: var(--border-radius-default);
+  height: 320px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container .product-details h2{
+  text-align: start;
+  color: #383838;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.container .product-details p{
+  color: rgb(56, 56, 56);
+  text-align: start;
+  max-width: 300px;
+}
+.container .product-details span{
+  font-weight: 700;
+  font-size: 32px;
+  text-align: start;
+  width: 100%;
+  color: #383838;
+  display: block;
 }
